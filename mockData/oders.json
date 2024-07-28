@@ -1,0 +1,35 @@
+[
+    {
+      "userId": "66a2bdb285c002a40c7950be",
+      "products": [
+        { "productId": "66a2bda185c002a40c7950ba", "quantity": 1 },
+        { "productId": "66a2bda185c002a40c7950bb", "quantity": 2 }
+      ],
+      "totalAmount": 1849.98,
+      "status": "pending",
+      "createdAt": "2024-07-24T12:30:00Z",
+      "updatedAt": "2024-07-24T12:30:00Z"
+    },
+    {
+      "userId": "66a2bdb285c002a40c7950c1",
+      "products": [
+        { "productId": "66a2bda185c002a40c7950ba", "quantity": 3 }
+      ],
+      "totalAmount": 450.00,
+      "status": "shipped",
+      "createdAt": "2024-07-24T12:35:00Z",
+      "updatedAt": "2024-07-24T12:35:00Z"
+    },
+    {
+      "userId": "66a2bdb285c002a40c7950be",
+      "products": [
+        { "productId": "66a2bda185c002a40c7950bc", "quantity": 1 },
+        { "productId": "66a2bda185c002a40c7950bd", "quantity": 2 }
+      ],
+      "totalAmount": 1350.00,
+      "status": "delivered",
+      "createdAt": "2024-07-24T12:40:00Z",
+      "updatedAt": "2024-07-24T12:40:00Z"
+    }
+  ]
+  

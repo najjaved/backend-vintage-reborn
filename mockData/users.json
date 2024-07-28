@@ -1,0 +1,73 @@
+[
+    {
+      "username": "john_doe",
+      "passwordHash": "hashed_password_1",
+      "email": "john.doe@example.com",
+      "address": "123 Main St, Springfield",
+      "phone": 1234567890,
+      "role": "customer",
+      "createdAt": "2024-07-24T12:00:00Z",
+      "updatedAt": "2024-07-24T12:00:00Z"
+    },
+    {
+      "username": "admin_user",
+      "passwordHash": "hashed_password_2",
+      "email": "admin.user@example.com",
+      "address": "456 Elm St, Springfield",
+      "phone": 2345678901,
+      "role": "admin",
+      "createdAt": "2024-07-24T12:05:00Z",
+      "updatedAt": "2024-07-24T12:05:00Z"
+    },
+    {
+      "username": "guest_user",
+      "passwordHash": "hashed_password_3",
+      "email": "guest.user@example.com",
+      "address": "789 Oak St, Springfield",
+      "phone": 3456789012,
+      "role": "guest",
+      "createdAt": "2024-07-24T12:10:00Z",
+      "updatedAt": "2024-07-24T12:10:00Z"
+    },
+    {
+      "username": "jane_smith",
+      "passwordHash": "hashed_password_4",
+      "email": "jane.smith@example.com",
+      "address": "101 Maple St, Springfield",
+      "phone": 4567890123,
+      "role": "customer",
+      "createdAt": "2024-07-24T12:15:00Z",
+      "updatedAt": "2024-07-24T12:15:00Z"
+    },
+    {
+      "username": "alice_jones",
+      "passwordHash": "hashed_password_5",
+      "email": "alice.jones@example.com",
+      "address": "202 Birch St, Springfield",
+      "phone": 5678901234,
+      "role": "customer",
+      "createdAt": "2024-07-24T12:20:00Z",
+      "updatedAt": "2024-07-24T12:20:00Z"
+    },
+    {
+      "username": "bob_brown",
+      "passwordHash": "hashed_password_6",
+      "email": "bob.brown@example.com",
+      "address": "303 Cedar St, Springfield",
+      "phone": 6789012345,
+      "role": "guest",
+      "createdAt": "2024-07-24T12:25:00Z",
+      "updatedAt": "2024-07-24T12:25:00Z"
+    },
+    {
+      "username": "charlie_davis",
+      "passwordHash": "hashed_password_7",
+      "email": "charlie.davis@example.com",
+      "address": "404 Pine St, Springfield",
+      "phone": 7890123456,
+      "role": "customer",
+      "createdAt": "2024-07-24T12:30:00Z",
+      "updatedAt": "2024-07-24T12:30:00Z"
+    }
+  ]
+  

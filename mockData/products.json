@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Smartphone XYZ",
+      "category": "Electronics",
+      "description": "A high-end smartphone with a powerful processor and a sleek design.",
+      "price": 999.99,
+      "discount": 10,
+      "stock": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+      ],
+      "createdBy": "66a2bdb285c002a40c7950c1",
+      "createdAt": "2024-07-24T12:20:00Z",
+      "updatedAt": "2024-07-24T12:20:00Z"
+    },
+    {
+      "name": "Wireless Headphones",
+      "category": "Accessories",
+      "description": "Noise-cancelling wireless headphones with long battery life.",
+      "price": 199.99,
+      "discount": 5,
+      "stock": 100,
+      "images": [
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+        "https://images.unsplash.com/photo-1516705725245-23d5e20f1f55"
+      ],
+      "createdBy": "66a2bdb285c002a40c7950c2",
+      "createdAt": "2024-07-24T12:25:00Z",
+      "updatedAt": "2024-07-24T12:25:00Z"
+    },
+    {
+      "name": "Gaming Laptop Pro",
+      "category": "Computers",
+      "description": "A powerful gaming laptop with high-end graphics and fast processing speed.",
+      "price": 1499.99,
+      "discount": 15,
+      "stock": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+        "https://images.unsplash.com/photo-1555617117-08b3d3802783"
+      ],
+      "createdBy": "66a2bdb285c002a40c7950c4",
+      "createdAt": "2024-07-24T12:30:00Z",
+      "updatedAt": "2024-07-24T12:30:00Z"
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "category": "Accessories",
+      "description": "Portable Bluetooth speaker with excellent sound quality and battery life.",
+      "price": 99.99,
+      "discount": 20,
+      "stock": 200,
+      "images": [
+        "https://images.unsplash.com/photo-1512499617640-c2f99981f9b2",
+        "https://images.unsplash.com/photo-1487222477898-8943e31ef3db"
+      ],
+      "createdBy": "66a2bdb285c002a40c7950c4",
+      "createdAt": "2024-07-24T12:35:00Z",
+      "updatedAt": "2024-07-24T12:35:00Z"
+    }
+  ]
+  
