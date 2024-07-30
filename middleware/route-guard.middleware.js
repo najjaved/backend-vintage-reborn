@@ -7,9 +7,9 @@ const isAuthenticated = async (req, res, next) => {
         // Get the token string from the authorization header - "Bearer eyJh5kp9..."
         const token = req.headers.authorization?.split(" ")[1];
 
-        // Verify the token. Returns payload if the token is valid, otherwise throws an error
-        const payload = jwt.verify(token, secret);
-        console.log('*************payload decoded after token verification: ', payload);
+        // Verify the token. Returns payload if the token is valid, otherwise throws an error. 
+        const payload = jwt.verify(token, secret); //payload sent at the time of token signing(jwt.sign())
+        console.log(`\n*************payload decoded after token verification:${payload} *************`);
 
         // Add the decoded payload to the request object as req.tokenPayload for use in next middleware or route
         req.tokenPayload = payload;

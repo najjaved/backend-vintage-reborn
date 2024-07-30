@@ -114,11 +114,6 @@ router.get("/verify", isAuthenticated, (req, res, next) => {
     res.status(200).json({message: 'Login verified', tokenPayload: req.tokenPayload});
 })
 
-/* GET verified: admin
-router.get("/verify/admin",isAuthenticated, isAdmin, (req, res, next) => {
-    res.status(200).json({ message: 'Admin verified', tokenPayload: req.tokenPayload });
-  }
-); */
 
 
 module.exports = router
