@@ -39,6 +39,17 @@ router.get('/category/:category', async (req, res, next) => {
   }
 })
 
+// get products added by a user
+router.get('/userId', isAuthenticated, async (req, res, next) => {
+  const { userId} = req.tokenPayload;
+  try {
+      const userProducts = await Product.find({ createdBy: new mongoose.Types.ObjectId(userId) })
+      res.status(200).json(userProducts)
+  } catch (error) {
+      next(error)
+  }
+})
+
 router.post('/', isAuthenticated, async (req, res, next) => {
     req.body.createdBy = req.tokenPayload.userId;
     httpPost(Product, req, res, next); //todDo: refactor the rest likewise

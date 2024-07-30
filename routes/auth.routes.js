@@ -108,16 +108,17 @@ router.post("/login", async (req, res, next) => {
     }
 })
 
-// GET verified: customer
+// GET verified: customer 
 router.get("/verify", isAuthenticated, (req, res, next) => {
+    console.log('\nverify payload', req.tokenPayload)
     res.status(200).json({message: 'Login verified', tokenPayload: req.tokenPayload});
 })
 
-// GET verified: admin
+/* GET verified: admin
 router.get("/verify/admin",isAuthenticated, isAdmin, (req, res, next) => {
     res.status(200).json({ message: 'Admin verified', tokenPayload: req.tokenPayload });
   }
-);
+); */
 
 
 module.exports = router

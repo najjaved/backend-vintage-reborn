@@ -9,7 +9,7 @@ const isAuthenticated = async (req, res, next) => {
 
         // Verify the token. Returns payload if the token is valid, otherwise throws an error
         const payload = jwt.verify(token, secret);
-        console.log('payload decoded after token verification: ', payload);
+        console.log('*************payload decoded after token verification: ', payload);
 
         // Add the decoded payload to the request object as req.tokenPayload for use in next middleware or route
         req.tokenPayload = payload;

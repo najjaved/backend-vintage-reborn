@@ -12,7 +12,21 @@ router.get('/', isAuthenticated, isAdmin, async (req, res, next) => {
         )
         .populate('userId', '_id address');
  
-        res.json(ordersData);
+        res.status(200).json(ordersData);
+    } catch (error) {
+        next(error);
+    }
+})
+
+// fetch orders of a particular user, with most recent orders on top
+router.get('/userId', isAuthenticated, async (req, res, next) => {
+    try {
+        const ordersHistory = await Order.find({userId: req.tokenPayload.userId})
+        .sort({createdAt: -1}
+        )
+        .populate('userId', '_id address');
+ 
+        res.status(200).json(ordersHistory);
     } catch (error) {
         next(error);
     }
