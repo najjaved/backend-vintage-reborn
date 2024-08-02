@@ -35,7 +35,7 @@ const orderSchema = new Schema(
         orderItems: [
             {"productId": {
                 type: Schema.Types.ObjectId, 
-                ref: "Products", //toDo: rename Products to Product in model export
+                ref: "Product", //toDo: rename Products to Product in model export
                 required: [true, 'productId is required.']
                 },
               "quantity": {

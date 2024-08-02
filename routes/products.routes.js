@@ -52,7 +52,7 @@ router.get('/userId', isAuthenticated, async (req, res, next) => {
 
 router.post('/', isAuthenticated, async (req, res, next) => {
     req.body.createdBy = req.tokenPayload.userId;
-    httpPost(Product, req, res, next); //todDo: refactor the rest likewise
+    httpPost(Product, req, res, next); 
 })
 
 router.put('/:productId', isAuthenticated, async (req, res, next) => {

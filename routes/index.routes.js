@@ -15,4 +15,7 @@ router.use("/orders", ordersRoutes)
 const productRoutes = require("./products.routes")
 router.use("/products", productRoutes)
 
+const cartRoutes = require("./carts.routes")
+router.use("/carts", cartRoutes)
+
 module.exports = router
